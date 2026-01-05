@@ -1,0 +1,23 @@
+{
+    "ollama": {
+        "model": "deepseek-r1:7b"
+    },
+    "monitoring": {
+        "region": {
+            "x": 492,
+            "y": 972,
+            "width": 786,
+            "height": 100
+        },
+        "input_coords": {
+            "x": 444,
+            "y": 1148
+        },
+        "copy_area_coords": {
+            "x": 513,
+            "y": 989,
+            "width": 50,
+            "height": 20
+        }
+    }
+}
