@@ -1,0 +1,65 @@
+{
+  "ollama": {
+    "url": "http://localhost:11434/api/generate",
+    "model": "qwen3:8b",
+    "timeout": 30
+  },
+  "monitoring": {
+    "interval": 3,
+    "ocr_lang": "chi_sim+eng",
+    "min_text_length": 1,
+    "confidence_threshold": 35,
+    "region": {
+      "x": 490,
+      "y": 1035,
+      "width": 401,
+      "height": 100
+    },
+    "input_coords": {
+      "x": 449,
+      "y": 1159
+    },
+    "copy_area_coords": {
+      "x": 520,
+      "y": 997
+    },
+    "ocr_mode_enabled": true,
+    "copy_area_mode_enabled": false
+  },
+  "gui": {
+    "window_size": [
+      800,
+      600
+    ],
+    "refresh_rate": 1000
+  },
+  "paths": {
+    "tesseract_path": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
+  },
+  "active_mode": "auto_copy",
+  "screen_region": {
+    "offset_x": 490,
+    "offset_y": 1035,
+    "width": 401,
+    "height": 100
+  },
+  "confidence_threshold": 0.46,
+  "check_interval": 0.5,
+  "llm_model": "gpt-3.5-turbo",
+  "prompt_template": "你是我的聊天助手，负责帮我回复消息。请认真阅读下面的消息内容，理解其含义和语境，然后给出恰当、友好且简洁的回复。注意保持自然的对话风格，避免过于正式或生硬。\n\n消息内容：{message}",
+  "auto_copy_target": "",
+  "hotkey_settings": {
+    "activate_app": "ctrl+shift+a",
+    "pause_resume": "ctrl+shift+p"
+  },
+  "capture_point": {
+    "x": 520,
+    "y": 997
+  },
+  "input_point": {
+    "x": 449,
+    "y": 1159
+  },
+  "ollama_model": "deepseek8b-gpu:latest",
+  "enable_auto_copy": true
+}
