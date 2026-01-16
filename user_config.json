@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "ollama": {
     "url": "http://localhost:11434/api/generate",
@@ -62,4 +63,28 @@
   },
   "ollama_model": "deepseek8b-gpu:latest",
   "enable_auto_copy": true
+=======
+{
+    "ollama": {
+        "model": "deepseek-r1:7b"
+    },
+    "monitoring": {
+        "region": {
+            "x": 492,
+            "y": 972,
+            "width": 786,
+            "height": 100
+        },
+        "input_coords": {
+            "x": 444,
+            "y": 1148
+        },
+        "copy_area_coords": {
+            "x": 513,
+            "y": 989,
+            "width": 50,
+            "height": 20
+        }
+    }
+>>>>>>> 1ee4eff02bd1256b18883f945e688489d09d480a
 }
