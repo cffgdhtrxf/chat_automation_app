@@ -20,8 +20,8 @@
       "y": 1159
     },
     "copy_area_coords": {
-      "x": 520,
-      "y": 997
+      "x": 502,
+      "y": 1354
     },
     "ocr_mode_enabled": true,
     "copy_area_mode_enabled": false
@@ -53,13 +53,13 @@
     "pause_resume": "ctrl+shift+p"
   },
   "capture_point": {
-    "x": 520,
-    "y": 997
+    "x": 502,
+    "y": 1354
   },
   "input_point": {
     "x": 449,
     "y": 1159
   },
-  "ollama_model": "deepseek8b-gpu:latest",
+  "ollama_model": "qwen3.5:9b",
   "enable_auto_copy": true
 }
